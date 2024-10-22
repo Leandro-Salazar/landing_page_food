@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Landing Page</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <link rel="stylesheet" href="src/styles/styles.css">
+        
+<body>
+    <header>
+
+        <nav id="navbar">
+
+            <i class="fa-solid fa-pizza-slice"  id="nav_logo"> Food</i>
+
+            <ul id="nav_list">
+
+                <li class="nav_item active">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+
+            </ul>
+
+            <button class="btn_default">Peça aqui</button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+
+                <li class="nav_item">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+
+            </ul>
+
+            <button class="btn_default">Peça aqui</button>
+
+        </div>
+
+    </header>
+    
+    <main id="content">
+
+        <section id="home">
+
+            <div class="shape"></div>
+
+            <div id="cta">
+
+                <h1 class="title">
+                    O sabor que vai até <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Descubra pratos deliciosos preparados com carinho e entregue diretamente na sua porta. Com apenas alguns cliques, você pode saborear refeições irresistíveis, sem sair de casa. Peça agora e deixe o sabor chegar até você!
+                </p>
+
+                <div id="cta_buttons">
+
+                        <a href="#" class="btn_default">
+                            Ver cardápio
+                        </a>
+
+                        <a href="tel:+11998689517" id="phone_button">
+                            <button class="btn_default">
+                                <i class="fa-solid fa-phone"></i>
+                            </button>
+                            (11) 99868-9517
+                        </a>
+
+                </div>
+
+                <div class="social_media_buttons">
+
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="Imagem Principal">
+            </div>
+
+            
+
+        </section><!--FIM DA SECTION HOME-->
+
+    <section id="menu">
+
+        <h2 class="section_title">
+            Cardápio
+        </h2>
+
+        <h3 class="section_subtitle">
+            Nossos pratos especiais
+        </h3>
+
+        <div id="dishes">
+
+            <div class="dish">
+
+                <div class="dish_heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/dish.png" class="dish_image" alt="Coração">
+
+                <h3 class="dish_title">
+                    Frango Xadrez
+                </h3>
+
+                <span class="dish_description">
+                    Uma deliciosa combinação de cubos de frango suculentos com pimentões crocantes, cebola e molho oriental, trazendo um toque agridoce e cheio de sabor.
+                </span>
+
+                <div class="dish_rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish_price">
+                    <h4>R$44,90</h4>
+                    <div class="btn_default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+
+            </div> <!--Fim Prato 1-->
+
+            <div class="dish">
+
+                <div class="dish_heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/dish2.png" class="dish_image" alt="Coração">
+
+                <h3 class="dish_title">
+                   Misto Quente
+                </h3>
+
+                <span class="dish_description">
+                    O clássico sanduíche de presunto e queijo, preparado com pão quentinho e tostado na medida certa, ideal para um lanche rápido e saboroso.
+                </span>
+
+                <div class="dish_rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish_price">
+                    <h4>R$34,90</h4>
+                    <div class="btn_default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+
+            </div><!--Fim Prato 2-->
+
+            <div class="dish">
+
+                <div class="dish_heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/dish3.png" class="dish_image" alt="Coração">
+
+                <h3 class="dish_title">
+                    Salada de Pepino
+                </h3>
+
+                <span class="dish_description">
+                    Refrescante e leve, nossa salada de pepino é temperada com ingredientes frescos e um toque especial de ervas, perfeita para acompanhar qualquer refeição.
+                </span>
+
+                <div class="dish_rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish_price">
+                    <h4>R$22,90</h4>
+                    <div class="btn_default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+
+            </div><!-- Fim Prato 3-->
+
+            <div class="dish">
+
+                <div class="dish_heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/dish4.png" class="dish_image" alt="Coração">
+
+                <h3 class="dish_title">
+                   Yakissoba
+                </h3>
+
+                <span class="dish_description">
+                    Um prato tradicional asiático com macarrão, legumes frescos e carne (ou frango), tudo envolvido em um molho especial que equilibra sabores salgados e levemente adocicados.
+                </span>
+
+                <div class="dish_rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish_price">
+                    <h4>R$54,90</h4>
+                    <div class="btn_default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                </div>
+
+            </div><!-- Fim Prato 4-->
+
+            
+
+        </div>
+    </section> <!--FIM DA SECTION MENU-->
+
+    <section id="testimonials">
+        <img src="src/images/chef.png" class="testimonial_chef" alt="Chefe">
+
+        <div id="testimonials_content">
+
+            <h2 class="section_title">
+                Depoimentos
+            </h2>
+
+            <h3 class="section_subtitle">
+                O que os clientes falam sobre nós
+            </h3>
+
+            <div id="feedbacks">
+
+                <div class="feedback">
+                    <img src="src/images/avatar.png" class="feedback_avatar" alt="Avatar">
+
+                    <div class="feedback_content">
+                        <p>
+                            Simoni Salazar
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            "Adorei o frango xadrez! A combinação de temperos estava perfeita, e os legumes estavam super crocantes. Sem contar que o site é fácil de navegar e fazer o pedido. Vou pedir de novo com certeza!"
+                        </p>
+                        
+                    </div>
+
+                </div>
+
+            </div> <!--Fim Feedback 1-->
+
+            <div id="feedbacks">
+
+                <div class="feedback">
+                    <img src="src/images/avatar.png" class="feedback_avatar" alt="Avatar">
+
+                    <div class="feedback_content">
+                        <p>
+                           Lais Melo
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            "O yakissoba é simplesmente maravilhoso! Muito bem temperado e com uma porção generosa. Além disso, gostei muito da forma como os pratos estão descritos no site, bem convidativo!"
+                        </p>
+                        
+                    </div>
+
+                </div>
+                
+            </div> <!--Fim Feedback 2-->
+
+            <button class="btn_default">
+                Ver mais Avaliações
+            </button>
+
+        </div>
+    </section>
+
+    </main>
+    
+    <footer>
+        <img src="src/images/wave (1).svg" alt="onda">
+
+        <div id="footer_itens">
+            <span id="copyright">
+                &copy 2024 Leandro Salazar
+            </span>
+
+            <div class="social_media_buttons">
+
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+    
+
+</body>
+</html>
